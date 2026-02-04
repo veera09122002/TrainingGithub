@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using YourProject.Models;
+using SampleGit.Models;
 
 namespace YourProject.Controllers
 {
