@@ -24,7 +24,7 @@ namespace YourProject.Controllers
            
             if (model.Email == "admin@test.com" && model.Password == "123456")
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Dashboard", "Index");
             }
 
             ViewBag.Error = "Invalid email or password";
